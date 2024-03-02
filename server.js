@@ -25,9 +25,8 @@ app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/category", categoryRoutes);
 app.use("/api/v1/product", productRoutes);
 
-
-// //port
-// const PORT = process.env.PORT || 4000;
+ //port
+const PORT = process.env.PORT || 4000;
 
 //run liste
 app.listen(PORT, () => {
