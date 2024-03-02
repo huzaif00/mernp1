@@ -2,7 +2,7 @@
   "name": "e-commerce-ap",
   "version": "1.0.0",
   "description": "ecommerce rest api",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js",
